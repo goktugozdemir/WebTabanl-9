@@ -3,6 +3,6 @@
    
    session_destroy(); 
    
-   header('Location: girissf.html'); 
+   header('Location: index.html.html'); 
    
    ?>
