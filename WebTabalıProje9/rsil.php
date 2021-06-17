@@ -2,7 +2,7 @@
 session_start(); 
    if ( !isset($_SESSION['telefon']) ) { 
    
-     header("Location:girissf.html"); 
+     header("Location:girissf.php"); 
    
  exit(); }
 include("baglanti.php");
