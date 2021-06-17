@@ -16,7 +16,7 @@ foreach($required as $field) {
 }
 
 if ($hata) {
-  echo "Tüm alanlar dolu olmalıdır. <a href='kayıt.php'>Kayıt sayfasına dönmek için tıklayınız</a>";
+  echo "Tüm alanlar dolu olmalıdır. <a href='kayıt.html'>Kayıt sayfasına dönmek için tıklayınız</a>";
 } 
 
 else{
@@ -24,7 +24,7 @@ $kayıt="INSERT INTO giris (Telefon, sifre)
 VALUES ('$telefon','$sifre')";
 
 if ($baglanti->query($kayıt) === TRUE) {
-  echo "Kaydınız başarı ile yapılmıştır. <a href=anasayfa.php>Ana sayfaya geçmek için tıklayınız</a>";
+  echo "Kaydınız başarı ile yapılmıştır. <a href=anasayfa.html>Ana sayfaya geçmek için tıklayınız</a>";
 } else {
   echo "Bir sorun çıktı: ";
 }
