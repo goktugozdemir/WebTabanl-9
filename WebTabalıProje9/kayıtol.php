@@ -16,7 +16,7 @@ foreach($required as $field) {
 }
 
 if ($hata) {
-  echo "Tüm alanlar dolu olmalıdır. <a href='kayıt.html'>Kayıt sayfasına dönmek için tıklayınız</a>";
+  echo "Tüm alanlar dolu olmalıdır. <a href='kayıt.php'>Kayıt sayfasına dönmek için tıklayınız</a>";
 } 
 
 else{
