@@ -6,7 +6,7 @@
      
    if (isset($_SESSION['telefon'])){ 
    
-   header("anasayfa.html"); 
+   header("anasayfa.php"); 
    exit();
    }
    
