@@ -2,7 +2,7 @@
 $server = 'sql11.freemysqlhosting.net';
 $user = 'sql11419772';
 $password = 'X4UdVPv6et';
-$database = 'dis';
+$database = 'sql11419772';
 
 $baglanti = mysqli_connect($server, $user, $password, $database);
 
