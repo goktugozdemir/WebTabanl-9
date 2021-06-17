@@ -6,7 +6,7 @@
      
    if (isset($_SESSION['telefon'])){ 
    
-   header("anasayfa.php"); 
+   header("anasayfa.html"); 
    exit();
    }
    
@@ -34,7 +34,7 @@
    $say = mysqli_num_rows($cevap); 
    if ($say == 1){ 
        $_SESSION['telefon'] = $telefon; 
-	        header('Location: anasayfa.php'); 
+	        header('Location: anasayfa.html'); 
    
     }
 	else{ 
