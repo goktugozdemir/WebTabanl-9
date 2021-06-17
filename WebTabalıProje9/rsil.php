@@ -14,7 +14,7 @@ mysqli_query ($baglanti,$query);
 
 if (mysqli_affected_rows($baglanti) == 1) { 
 
-            echo"<strong>Randevunuz Silinmiştir</strong><br /><br /><a href=anasayfa.html>Anasayfaya Dönmek için basınız</a>";
+            echo"<strong>Randevunuz Silinmiştir</strong><br /><br /><a href=anasayfa.php>Anasayfaya Dönmek için basınız</a>";
 
  } else { 
 
